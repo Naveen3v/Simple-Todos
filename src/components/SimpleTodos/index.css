@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  background-size: cover;
+  height: 100vh;
+}
+.innercont {
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  height: 90vh;
+  width: 90vw;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+}
+.heading {
+  font-size: 30px;
+  color: #ff8542;
+}
+.listcont {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+    color: #ff8542;
+  }
+}
